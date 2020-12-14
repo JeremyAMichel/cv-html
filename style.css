@@ -1,0 +1,104 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    padding-bottom: 5px;
+}
+
+
+.section_formation,.section_profil, .section_experience, .section_benevolat {
+    padding-top: 45px;
+    
+}
+
+.profil, .formation, .experience, .benevolat {
+    padding-top: 10px;
+}
+
+.section_infos_pratique, .section_competence {
+    padding-top: 45px;
+}
+
+.langages, .framework, .langues {
+    padding-top: 10px;
+}
+
+.colonne1 {
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    align-items: center; 
+    background-color: rgb(13, 13, 14);
+
+}
+
+.colonne2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(23, 23, 26);
+}
+
+.corps {
+    display: flex;
+}
+
+.description {
+    font-style: italic;
+}
+
+.job {
+     font-size: 30px;
+     padding-top: 5px;
+     padding-bottom: 25px;
+}
+.main {
+    display: flex;
+}
+
+.photo {
+    align-items: center;
+    background-color: rgb(12, 125, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 30%; 
+    padding: 20px;
+    
+}
+
+.profil-picture {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.sous-section {
+    padding-bottom: 10px;
+}
+
+.titre-en-tete {
+    align-items: center;
+    background-color: rgb(81, 49, 196);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
